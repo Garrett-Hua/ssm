@@ -1,33 +1,43 @@
-# http://www.gnu.org/software/automake
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# Folder config file
+Desktop.ini
 
-# http://www.gnu.org/software/autoconf
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-/autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# https://www.gnu.org/software/libtool/
+# Windows shortcuts
+*.lnk
 
-/ltmain.sh
+# =========================
+# Operating System Files
+# =========================
 
-# http://www.gnu.org/software/texinfo
+# OSX
+# =========================
 
-/texinfo.tex
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
